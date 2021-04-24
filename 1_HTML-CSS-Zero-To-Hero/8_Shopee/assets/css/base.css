@@ -6,6 +6,10 @@
   --text-color: #333;
   --primary-color: rgb(238, 77, 45);
   --border-color: #dbdbdb;
+
+  --header-height: 120px;
+  --navbar-info: 40px;
+  --header-with-search: calc(var(--header-height) - var(--navbar-info))
 }
 
 * {
@@ -39,16 +43,6 @@ html {
   flex-wrap: wrap;
 }
 
-/* ANIMATION */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 /* MODAL */
 .modal {
   position: fixed;
@@ -59,6 +53,7 @@ html {
 
   /* can giua margin auto tao modal__body */
   display: flex;
+  animation: fadeIn linear 0.2s;
 }
 .modal__overlay {
   position: absolute;
@@ -67,9 +62,12 @@ html {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .modal__body {
+  --growth-form: 0.7;
+  --growth-to: 1;
   margin: auto;
   /* mac ddinh z-index = 0 */
-  z-index: 1;;
+  z-index: 1;
+  animation: growth linear 0.2s;
 }
 
 .btn {
@@ -103,4 +101,24 @@ html {
 .btn.btn--size-s {
   font-size: 12px;
   height: 32px;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ANIMATION - Phong to tu tu */ 
+@keyframes growth {
+  from {
+    transform: scale(var(--growth-form));
+  }
+  to {
+    transform: scale(var(--growth-to));
+  }
 }
