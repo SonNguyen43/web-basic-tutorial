@@ -19,6 +19,7 @@
   /* cho nay co the search: how to use prefix (tiep dau ngu) */
   animation: headerNotifyGrowth .2s ease-in-out;
   display: none;
+  border-radius: 2px;
   z-index: 1;
 }
 

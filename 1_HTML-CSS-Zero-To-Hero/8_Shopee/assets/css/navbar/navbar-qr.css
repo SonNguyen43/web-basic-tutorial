@@ -13,6 +13,7 @@
   border-radius: 2px;
   display: none;
   animation: fadeIn 0.3s ease-in;
+  z-index: 1;
    /* h-shadow | v-shadow | blur | color*/
   box-shadow: 0 0 3px #ccc;
 }
