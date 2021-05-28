@@ -1,253 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta
-            http-equiv="X-UA-Compatible"
-            content="IE=edge"
-        >
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        >
-        <title>Đặt phòng homestay nhanh chóng, tiện lợi</title>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="./assets/css/base.css">
-        <link rel="stylesheet" href="./assets/css/navbar/navbar.css">
-        <link rel="stylesheet" href="./assets/css/slide/slide.css">
-        <link rel="stylesheet" href="./assets/css/introduce/introduce.css">
-        <link rel="icon" href="./assets/img/logo.png">
-    </head>
-    <body>
-        <!-- NAVBAR -->
-        <nav class="navbar">
-            <div class="navbar__content grid__navbar">
-                <div class="navbar__search grid__column-6">
-                    <a
-                        href
-                        class="navbar__search-link"
-                    >
-                        <svg
-                            viewBox="0 0 50px"
-                            class="navbar__search-logo"
-                            style="width: 50px; height: 50px"
-                        >
-                            <path
-                                pid="0"
-                                d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67z"
-                            ></path>
-                        </svg>
-                    </a>
 
-                    <div class="navbar__search-input">
-                        <div class="navbar__search-input--1">
-                            <i class="fas fa-search navbar__search-input--1-icon"></i>
-                            <input
-                                type="text"
-                                class="navbar__search-input--1-text"
-                                placeholder="Tìm kiếm"
-                            >
-                        </div>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Đặt phòng homestay nhanh chóng, tiện lợi</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/base.css">
+	<link rel="stylesheet" href="./assets/css/navbar/navbar.css">
+	<link rel="stylesheet" href="./assets/css/slide/slide.css">
+	<link rel="stylesheet" href="./assets/css/introduce/introduce.css">
+	<link rel="stylesheet" href="./assets/css/service/service.css">
+	<link rel="icon" href="./assets/img/logo.png">
+</head>
 
-                        <div class="navbar__search-input--2">
-                            <i class="far fa-calendar navbar__search-input--2-icon"></i>
-                            <input
-                                type="button"
-                                class="navbar__search-input--2-date"
-                                value="Ngày"
-                            >
-                            <div class="navbar__search-input--2-option">
-                              <img src="./assets/img/scheule.png" class="navbar__search-input--2-schedule"></img>
-                              <div class="row navbar__search-input--2-option--footer">
-                                <div class="navbar__search-input--2-option--delete">Xóa</div>
-                                <div class="navbar__search-input--2-option--apply">Áp dụng</div>
-                            </div>
-                            </div>
-                        </div>
+<body>
+	<!-- NAVBAR -->
+	<nav class="navbar">
+		<div class="navbar__content grid__navbar">
+			<div class="navbar__search column-6">
+				<a href class="navbar__search-link">
+					<svg viewBox="0 0 50px" class="navbar__search-logo" style="width: 50px; height: 50px">
+						<path pid="0"
+							d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67z">
+						</path>
+					</svg>
+				</a>
 
-                        <div class="navbar__search-input--3">
-                            <i class="fas fa-user navbar__search-input--3-icon"></i>
-                            <input
-                                type="button"
-                                class="navbar__search-input--3-number"
-                                value="Số khách "
-                            >
-                            <div class="navbar__search-input--3-option">
-                                <div class="row navbar__search-input--3-option--list">
-                                    <div class="navbar__search-input--3-item-text">
-                                        <span class="navbar__search-input--3-item-title">Người lớn</span>
-                                    </div>
-                                    <div class="navbar__search-input--3-item-function">
-                                        <input
-                                            type="button"
-                                            value="-"
-                                            class="navbar__search-input--3-option-item-tru"
-                                        >
-                                        <div class="navbar__search-input--3-option-item-number">0</div>
-                                        <input
-                                            type="button"
-                                            value="+"
-                                            class="navbar__search-input--3-option-item-cong"
-                                        >
-                                    </div>
+				<div class="navbar__search-input">
+					<div class="navbar__search-input--1">
+						<i class="fas fa-search navbar__search-input--1-icon"></i>
+						<input type="text" class="navbar__search-input--1-text" placeholder="Tìm kiếm">
+					</div>
 
-                                </div>
-                                <div class="row navbar__search-input--3-option--list mt-18">
-                                    <div class="navbar__search-input--3-item-text">
-                                        <div class="navbar__search-input--3-item-title">Trẻ em</div>
-                                        <div class="navbar__search-input--3-item-subtitle">Tuổi từ 2 - 12</div>
-                                    </div>
-                                    <div class="navbar__search-input--3-item-function">
+					<div class="navbar__search-input--2">
+						<i class="far fa-calendar navbar__search-input--2-icon"></i>
+						<input type="button" class="navbar__search-input--2-date" value="Ngày">
+						<div class="navbar__search-input--2-option">
+							<img src="./assets/img/scheule.png" class="navbar__search-input--2-schedule"></img>
+							<div class="row navbar__search-input--2-option--footer">
+								<div class="navbar__search-input--2-option--delete">Xóa</div>
+								<div class="navbar__search-input--2-option--apply">Áp dụng</div>
+							</div>
+						</div>
+					</div>
 
-                                        <input
-                                            type="button"
-                                            value="-"
-                                            class="navbar__search-input--3-option-item-tru"
-                                        >
-                                        <div class="navbar__search-input--3-option-item-number">0</div>
-                                        <input
-                                            type="button"
-                                            value="+"
-                                            class="navbar__search-input--3-option-item-cong"
-                                        >
-                                    </div>
-                                </div>
-                                <div class="row navbar__search-input--3-option--list mt-18">
-                                    <div class="navbar__search-input--3-item-text">
-                                        <div class="navbar__search-input--3-item-title">Trẻ sơ sinh</div>
-                                        <div class="navbar__search-input--3-item-subtitle">Dưới 2 tuổi</div>
-                                    </div>
-                                    <div class="navbar__search-input--3-item-function">
+					<div class="navbar__search-input--3">
+						<i class="fas fa-user navbar__search-input--3-icon"></i>
+						<input type="button" class="navbar__search-input--3-number" value="Số khách">
+						<div class="navbar__search-input--3-option">
+							<div class="row navbar__search-input--3-option--list">
+								<div class="navbar__search-input--3-item-text">
+									<span class="navbar__search-input--3-item-title">Người lớn</span>
+								</div>
+								<div class="navbar__search-input--3-item-function">
+									<input type="button" value="-" class="navbar__search-input--3-option-item-tru">
+									<div class="navbar__search-input--3-option-item-number">0</div>
+									<input type="button" value="+" class="navbar__search-input--3-option-item-cong">
+								</div>
 
-                                        <input
-                                            type="button"
-                                            value="-"
-                                            class="navbar__search-input--3-option-item-tru"
-                                        >
-                                        <div class="navbar__search-input--3-option-item-number">0</div>
-                                        <input
-                                            type="button"
-                                            value="+"
-                                            class="navbar__search-input--3-option-item-cong"
-                                        >
-                                    </div>
-                                </div>
-                                <div class="row navbar__search-input--3-option--footer">
-                                    <div class="navbar__search-input--3-option--delete">Xóa</div>
-                                    <div class="navbar__search-input--3-option--apply">Áp dụng</div>
-                                </div>
-                            </div>
-                        </div>
+							</div>
+							<div class="row navbar__search-input--3-option--list mt-18">
+								<div class="navbar__search-input--3-item-text">
+									<div class="navbar__search-input--3-item-title">Trẻ em</div>
+									<div class="navbar__search-input--3-item-subtitle">Tuổi từ 2 - 12</div>
+								</div>
+								<div class="navbar__search-input--3-item-function">
 
-                        <div class="navbar__search-input--icon">
-                            <i class="fas fa-search"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SEARCH -->
+									<input type="button" value="-" class="navbar__search-input--3-option-item-tru">
+									<div class="navbar__search-input--3-option-item-number">0</div>
+									<input type="button" value="+" class="navbar__search-input--3-option-item-cong">
+								</div>
+							</div>
+							<div class="row navbar__search-input--3-option--list mt-18">
+								<div class="navbar__search-input--3-item-text">
+									<div class="navbar__search-input--3-item-title">Trẻ sơ sinh</div>
+									<div class="navbar__search-input--3-item-subtitle">Dưới 2 tuổi</div>
+								</div>
+								<div class="navbar__search-input--3-item-function">
 
-                <!-- FUNCTION -->
-                <div class="navbar__function grid__column-6">
-                    <ul class="navbar__function-list">
-                        <li class="navbar__function--item">
-                            <span class="navbar__function--item-notify"></span>
-                            Host
-                        </li>
-                        <li class="navbar__function--item">Đăng ký</li>
-                        <li class="navbar__function--item">Đăng nhập</li>
-                    </ul>
-                    <div class="navbar__function-language">
-                        <img
-                            src="./assets/img/vi.svg"
-                            width="24"
-                            height="24"
-                        >
-                        <div class="navbar__function-language--text">VND</div>
-                        <i class="fas fa-sort-down navbar__function-language--option-icon"></i>
+									<input type="button" value="-" class="navbar__search-input--3-option-item-tru">
+									<div class="navbar__search-input--3-option-item-number">0</div>
+									<input type="button" value="+" class="navbar__search-input--3-option-item-cong">
+								</div>
+							</div>
+							<div class="row navbar__search-input--3-option--footer">
+								<div class="navbar__search-input--3-option--delete">Xóa</div>
+								<div class="navbar__search-input--3-option--apply">Áp dụng</div>
+							</div>
+						</div>
+					</div>
 
-                        <div class="navbar__function-language--option">
-                            <div class="row">
-                                <div class="grid__column-6">
-                                    <ul class="navbar__function-language--option-1">
-                                        <li class="navbar__function-language--item">
-                                            <img
-                                                src="./assets/img/vi.svg"
-                                                alt
-                                                class="navbar__function-language--item-icon"
-                                            >
-                                            <span class="navbar__function-language--item-country">Tiếng Việt</span>
-                                            <i class="fas fa-check"></i>
-                                        </li>
-                                        <li class="navbar__function-language--item">
-                                            <img
-                                                src="./assets/img/en.svg"
-                                                alt
-                                                class="navbar__function-language--item-icon"
-                                            >
-                                            <span class="navbar__function-language--item-country">English</span>
-                                        </li>
-                                        <li class="navbar__function-language--item">
-                                            <img
-                                                src="./assets/img/ko.svg"
-                                                alt
-                                                class="navbar__function-language--item-icon"
-                                            >
-                                            <span class="navbar__function-language--item-country">Korean</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="grid__column-6">
-                                    <ul class="navbar__function-language--option-2">
-                                        <li class="navbar__function-language--item">
-                                            <span class="navbar__function-language--item-unit">VND</span>
-                                            <span class="navbar__function-language--item-country">Việt Nam Đồng</span>
-                                            <i class="fas fa-check"></i>
-                                        </li>
-                                        <li class="navbar__function-language--item">
-                                            <span class="navbar__function-language--item-unit">USD</span>
-                                            <span class="navbar__function-language--item-country">United States Dollar</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END FUNCTION -->
-            </div>
-        </nav>
-        <!-- END NAVBAR -->
+					<div class="navbar__search-input--icon">
+						<i class="fas fa-search"></i>
+					</div>
+				</div>
+			</div>
+			<!-- END SEARCH -->
 
-        <!-- SLIDE -->
-        <div class="slide container">
-          <div class="grid__column-8">
-            <div class="row">
-              <img src="./assets/img/slide_2.png" alt="" class="slide__img">
-              <div class="slide__choose-option">
-                <ul class="slide__choose-list">
-                  <li class="slide__choose-item"></li>
-                  <li class="slide__choose-item"></li>
-                  <li class="slide__choose-item"></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- END SLIDE -->
+			<!-- FUNCTION -->
+			<div class="navbar__function column-6">
+				<ul class="navbar__function-list">
+					<li class="navbar__function--item">
+						<span class="navbar__function--item-notify"></span>
+						Host
+					</li>
+					<li class="navbar__function--item">Đăng ký</li>
+					<li class="navbar__function--item">Đăng nhập</li>
+				</ul>
+				<div class="navbar__function-language">
+					<img src="./assets/img/vi.svg" width="24" height="24">
+					<div class="navbar__function-language--text">VND</div>
+					<i class="fas fa-sort-down navbar__function-language--option-icon"></i>
 
-        <!-- INTRODUCE -->
-        <div class="introduce container">
-          <div class="grid__column-12">
-            <div class="row">
-              <h3 class="introduce__title">Chào mừng đến với Luxstay!</h3>
-              <p class="introduce__text">Đặt chỗ ở, homestay, cho thuê xe, trải nghiệm và nhiều hơn nữa trên Luxstay</p>
-              <p class="introduce__text"><a href="">Đăng nhập</a> hoặc <a href="">Đăng ký</a> để trải nghiệm !</p>
-            </div>
-          </div>
+					<div class="navbar__function-language--option">
+						<div class="row">
+							<div class="column-6">
+								<ul class="navbar__function-language--option-1">
+									<li class="navbar__function-language--item">
+										<img src="./assets/img/vi.svg" alt class="navbar__function-language--item-icon">
+										<span class="navbar__function-language--item-country">Tiếng Việt</span>
+										<i class="fas fa-check"></i>
+									</li>
+									<li class="navbar__function-language--item">
+										<img src="./assets/img/en.svg" alt class="navbar__function-language--item-icon">
+										<span class="navbar__function-language--item-country">English</span>
+									</li>
+									<li class="navbar__function-language--item">
+										<img src="./assets/img/ko.svg" alt class="navbar__function-language--item-icon">
+										<span class="navbar__function-language--item-country">Korean</span>
+									</li>
+								</ul>
+							</div>
+							<div class="column-6">
+								<ul class="navbar__function-language--option-2">
+									<li class="navbar__function-language--item">
+										<span class="navbar__function-language--item-unit">VND</span>
+										<span class="navbar__function-language--item-country">Việt Nam Đồng</span>
+										<i class="fas fa-check"></i>
+									</li>
+									<li class="navbar__function-language--item">
+										<span class="navbar__function-language--item-unit">USD</span>
+										<span class="navbar__function-language--item-country">United States Dollar</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END FUNCTION -->
+		</div>
+	</nav>
+	<!-- END NAVBAR -->
 
-        </div> 
-        <!-- END INTRODUCE -->
+	<!-- SLIDE -->
+	<div class="slide">
+		<div class="grid">
+			<div class="row">
+				<div class="column-12">
+					<img src="./assets/img/slide_1.png" alt="" class="slide__img" id="slide__img">
+					<div class="slide__choose-option">
+						<ul class="slide__choose-list">
+							<li class="slide__choose-item slide__choose-item--1" onmousemove="changeImg('./assets/img/slide_1.png')">
+							</li>
+							<li class="slide__choose-item slide__choose-item--2" onmousemove="changeImg('./assets/img/slide_2.png')">
+							</li>
+							<li class="slide__choose-item slide__choose-item--3" onmousemove="changeImg('./assets/img/slide_3.png')">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END SLIDE -->
 
-        <script src="./assets/js/app.js"></script>
-    </body>
+	<!-- INTRODUCE -->
+	<div class="introduce container">
+		<div class="grid">
+			<div class="row">
+				<div class="column-12">
+					<div class="row introduce__content">
+						<h3 class="introduce__title">Chào mừng đến với Luxstay!</h3>
+						<p class="introduce__text-intro" style="margin-bottom: 16px;">Đặt chỗ ở, homestay, cho thuê xe, trải nghiệm và nhiều hơn nữa trên Luxstay</p>
+						<p class="introduce__text-auth"><a href="">Đăng nhập</a> hoặc <a href="">Đăng ký</a> để trải nghiệm !</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END INTRODUCE -->
+
+	<!-- SERVICE -->
+	<div class="service container">
+		<div class="grid">
+			<div class="row">
+				<div class="column-12">
+					<div class="row">
+						<div class="column-2 service__item">
+							<div class="service__card">
+								<div class="service__card-header">
+									<img src="https://cdn.luxstay.com/home/suggestion/location_6_1572858402.png"
+										class="service__card-img"></img>
+								</div>
+								<div class="service__card-body">
+									<h3 class="service__card-title">Homestay</h3>
+									<div class="service__card-sub-title">Căn hộ dịch vụ & Biệt thự</div>
+								</div>
+							</div>
+						</div>
+						<div class="column-2 service__item">
+							<div class="service__card">
+								<div class="service__card-header">
+									<img src="https://cdn.luxstay.com/home/klook/entire-houses.jpg" class="service__card-img"></img>
+								</div>
+								<div class="service__card-body">
+									<h3 class="service__card-title">Vé tham quan</h3>
+									<div class="service__card-sub-title">Mua vé thật dễ dàng</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END SERVICE -->
+
+	<script src="./assets/js/app.js"></script>
+</body>
+
 </html>

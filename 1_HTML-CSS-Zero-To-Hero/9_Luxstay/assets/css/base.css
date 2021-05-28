@@ -2,13 +2,17 @@
     --white-color: #fff;
     --black-color: #000;
     --header-color: #222;
-    --text-color: #666;
+    --text-color: #999;
     --border-radius-2: 2px;
     --border-radius-4: 4px;
     --border-radius-6: 6px;
+    --border-radius-8: 8px;
+    --border-radius-12: 12px;
     --border-radius-16: 16px;
     --border-primary-color: #d6d6d6;
     --primary-color: #f65e39;
+    --primary-box-shadow: #0000001a;
+    --primary-transition-time: .3s;
 }
 
 * {
@@ -24,11 +28,11 @@ html {
 }
 
 .container {
-    padding: 44px 0;
+    margin: 42px 0 70px;
 }
 
 .grid {
-    width: 1122px;
+    width: 1297px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -44,23 +48,23 @@ html {
     flex-wrap: wrap;
 }
 
-.grid__column-2 {
+.column-2 {
     width: 16.666667%;
 }
 
-.grid__column-6 {
+.column-6 {
     width: 50%;
 }
 
-.grid__column-8 {
+.column-8 {
     width: 66.666667%;
 }
 
-.grid__column-10 {
+.column-10 {
     width: 83.33333%;
 }
 
-.grid__column-12 {
+.column-12 {
     width: 100%;
 }
 
