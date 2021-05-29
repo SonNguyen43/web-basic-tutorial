@@ -20,12 +20,12 @@ inputUnActive(".navbar__search-input--1", ".navbar__search-input--1-text", "inpu
 
 // input 2
 
-inputActive(".navbar__search-input--2", ".navbar__search-input--2-date", "input-active", "mouseover");
-inputUnActive(".navbar__search-input--2", ".navbar__search-input--2-date", "input-active", "mouseout");
+inputActive(".navbar__search-input--2", ".navbar__search-input--2", "input-active", "mouseover");
+inputUnActive(".navbar__search-input--2", ".navbar__search-input--2", "input-active", "mouseout");
 
 // input 3
-inputActive(".navbar__search-input--3", ".column-2", "input-active", "mouseover");
-inputUnActive(".navbar__search-input--3", ".column-2", "input-active", "mouseout");
+inputActive(".navbar__search-input--3", ".navbar__search-input--3", "input-active", "mouseover");
+inputUnActive(".navbar__search-input--3", ".navbar__search-input--3", "input-active", "mouseout");
 
 // slide show
 inputActive(".slide__choose-item--1", ".slide__choose-item--1", "active", "mouseover");

@@ -1,5 +1,5 @@
 .service__item {
-  margin-right: 16px;
+  margin-right: 5px;
 }
 .service__card {
   cursor: pointer;
@@ -24,9 +24,9 @@
   font-size: 16px;
   color: var(--header-color);
   margin-bottom: 4px;
-  transition: color 0var(--primary-transition-time) ease;
+  transition: color var(--primary-transition-time) ease;
 }
 .service__card-sub-title {
   font-size: 14px;
-  color: var(--text-color);
+  color: var(--subtitle-color);
 }
