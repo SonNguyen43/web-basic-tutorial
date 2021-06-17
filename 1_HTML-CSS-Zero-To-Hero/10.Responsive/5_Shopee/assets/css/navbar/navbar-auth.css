@@ -38,6 +38,9 @@
   background-color: #fafafa;
   cursor: pointer;
 }
+.header__navbar-user-item:last-child {
+  color: var(--primary-color);
+}
 
 .header__navbar-user-menu::after {
   content: "";

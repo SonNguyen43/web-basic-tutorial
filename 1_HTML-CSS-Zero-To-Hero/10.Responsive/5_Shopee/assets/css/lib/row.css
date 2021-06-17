@@ -24,6 +24,14 @@
         margin-left: -12px;
         margin-right: -12px;
     }
+    .row.sm-gutters {
+        margin-left: -4px;
+        margin-right: -4px;
+    }
+    .row.sm-gutters .col{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
 }
 
 /* > PC low resolution */
@@ -31,5 +39,13 @@
     .wide .row {
         margin-left: -12px;
         margin-right: -12px;
+    }
+    .wide .row.sm-gutters {
+        margin-left: -4px;
+        margin-right: -4px;
+    }
+    .wide .row.sm-gutters .col{
+        padding-left: 4px;
+        padding-right: 4px;
     }
 }
